@@ -23,7 +23,7 @@ var abi = [
 		"inputs": [],
 		"name": "Reset",
 		"outputs": [],
-		"stateMutability": "nonpayable",
+		"stateMutability": "payable",
 		"type": "function"
 	},
 	{
@@ -109,11 +109,6 @@ var abi = [
 		],
 		"name": "getPersonDetails",
 		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			},
 			{
 				"internalType": "uint256",
 				"name": "",
